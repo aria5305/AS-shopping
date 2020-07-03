@@ -1,0 +1,32 @@
+.Header {
+        position: fixed;
+        height: 8vh;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0 2rem;
+        z-index: 200;
+        background-color: transparent;
+}
+nav {
+        display: flex;
+        flex-direction: row;
+
+        margin-left: auto;
+        height: 100%;
+}
+
+@media (min-width: 700px) {
+        .Header {
+                position: relative;
+        }
+}
+
+@media (max-width: 499px) {
+        .DesktopOnly {
+                display: none;
+        }
+}

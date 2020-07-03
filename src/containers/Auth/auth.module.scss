@@ -1,0 +1,11 @@
+.form {
+        margin: 2rem auto;
+
+        max-width: 70rem;
+        width: 80%;
+}
+@media (min-width: 800px) {
+        .form {
+                margin-top: 2rem;
+        }
+}

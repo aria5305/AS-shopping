@@ -1,0 +1,41 @@
+.toggleSidebar,
+.toggleSidebar::before,
+.toggleSidebar::after {
+        // background-color: #fff;
+        background-color: #ff3cac;
+        background-image: linear-gradient(
+                225deg,
+                #ff3cac 0%,
+                #784ba0 50%,
+                #2b86c5 100%
+        );
+
+        height: 0.2rem;
+        width: 2rem;
+}
+
+.toggleSidebar {
+        position: relative;
+        display: block;
+        margin-right: 2rem;
+}
+
+.toggleSidebar::before,
+.toggleSidebar::after {
+        content: '';
+        position: absolute;
+        left: 0;
+}
+
+.toggleSidebar::after {
+        top: 0.6rem;
+}
+.toggleSidebar::before {
+        top: -0.6rem;
+}
+
+@media (min-width: 500px) {
+        .toggleSidebar {
+                display: none;
+        }
+}

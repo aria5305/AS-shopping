@@ -1,0 +1,51 @@
+.input {
+        margin: 1rem;
+        text-align: left;
+
+        &_label {
+                margin-left: 0.7rem;
+        }
+
+        &_element {
+                outline: none;
+                border: 1px solid #ddd;
+                background-color: white;
+                font: inherit;
+
+                padding: 6px 10px;
+                display: block;
+                width: 100%;
+                border-radius: 0.2rem;
+                transition: all 0.3s;
+
+                &::placeholder {
+                        color: rgba(0, 0, 0, 0.3);
+                }
+
+                &:focus {
+                        outline: none;
+                        border: 1px solid #43dde6;
+                }
+        }
+}
+
+.Invalid {
+        border: 1px solid red;
+        background-color: rgba(255, 0, 0, 0.3);
+        color: white;
+
+        &:focus {
+                border: 1px solid red;
+        }
+}
+
+.ValidationError {
+        color: red;
+        // margin: 5px 0;
+}
+
+.cartPrev {
+        border: 1px solid #eee;
+        // display: inline-block;
+        // width: 30%;
+}

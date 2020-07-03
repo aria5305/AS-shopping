@@ -1,0 +1,92 @@
+.ClothesItem {
+        // border: 1px solid black;
+        box-shadow: 0 2px 3px #ccc;
+        width: 20rem;
+        color: #364f6b;
+
+        height: 27rem;
+        margin: 2rem 1rem;
+        position: relative;
+
+        &_image {
+                margin: 1.3rem auto;
+                background-size: cover;
+                background-position: center;
+                width: 90%;
+                height: 50%;
+                // margin-bottom: 2rem;
+        }
+
+        &_item {
+                text-align: left;
+                margin-left: 1rem;
+                font-size: 1.5rem;
+
+                width: 90%;
+        }
+
+        &_price {
+                font-size: 1.5rem;
+        }
+
+        &_amount {
+                font-size: 1.3rem;
+        }
+
+        &_nameSizeContainer {
+                padding: 0 0.5rem 0 0;
+                // border: 1px solid red;
+        }
+        &_nameSizeContainer,
+        &_sizeList {
+                align-items: center;
+                display: flex;
+        }
+
+        &_sizeList {
+                list-style: none;
+        }
+
+        &_sizeItem {
+                cursor: pointer;
+                margin: 0 0.4rem;
+                padding: 0.2rem 0.5rem;
+                border: 1px solid #eee;
+                transition: all 0.2s;
+
+                &___active {
+                        border: 1px solid #eee;
+                        margin: 0 0.4rem;
+                        padding: 0.2rem 0.5rem;
+                }
+                &:hover,
+                &___active {
+                        background-color: #364f6b;
+                        color: white;
+                }
+        }
+
+        &_middle {
+                display: flex;
+                margin-top: 1.5rem;
+                padding: 0.3rem 1rem;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+
+                &::before {
+                        content: '';
+                        position: absolute;
+                        top: -1rem;
+                        left: 0;
+                        margin: 0 1rem;
+                        width: 90%;
+                        height: 1px;
+                        background-color: #eee;
+                }
+        }
+}
+
+.indicate {
+        display: flex;
+}

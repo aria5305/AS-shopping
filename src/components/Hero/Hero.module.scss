@@ -1,0 +1,21 @@
+.Hero {
+        background-image: url('../../assets//images/Hero.jfif');
+        background-size: cover;
+        width: 100%;
+        height: 92vh;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_heading {
+                font-size: 5rem;
+                font-weight: 700;
+                &___sub {
+                        font-size: 2rem;
+                        font-weight: 300;
+                }
+        }
+}
