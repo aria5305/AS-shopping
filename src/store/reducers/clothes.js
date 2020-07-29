@@ -124,6 +124,7 @@ const reducer = (state = initialState,action) => {
         case actionTypes.SHOW_CARTPREV: return showCartPrev(state,action);
         case actionTypes.HIDE_CARTPREV: return hideCartPrev(state,action);
         case actionTypes.CLEAR_CART: return clearCart(state,action);
+        
         case actionTypes.FETCH_CART_START: return fetchCartStart(state,action);
         case actionTypes.FETCH_CART_SUCCESS: return fetchCartSuccess(state,action);
         case actionTypes.FETCH_CART_FAILED: return fetchCartFailed(state,action);

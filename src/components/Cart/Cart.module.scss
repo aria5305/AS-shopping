@@ -2,16 +2,17 @@
         padding: 2rem;
         min-height: 92vh;
         background-color: #0e153a;
-
         box-shadow: 2px 3px 5px 2px #eee;
         text-align: center;
         display: flex;
+        // margin-top:0;
 }
 
 .leftContainer {
         width: 70%;
         background-color: white;
         // border: 1px solid blue;
+        padding:2rem;
 }
 
 .rightContainer {
@@ -24,6 +25,14 @@
                 margin-top: 2rem;
 
                 font-weight: 300;
+        }
+
+        &_price{
+                font-size:2rem;
+                text-align: right;
+                margin-right:2rem;
+                color:#364f6b;
+                margin-top:1rem;
         }
 }
 .Cart {
@@ -133,19 +142,21 @@
                 flex-direction: column-reverse;
                 min-height: 0;
                 padding: 1rem;
+             
         }
 
-        .rightContainer {
-                overflow-y: auto;
-                height: 50vh;
-        }
+        // .rightContainer {
+        //         overflow-y: auto;
+        //         // height:100vh;
+        
 
         .rightContainer,
         .leftContainer {
                 margin-top: 1rem;
                 padding: 2rem;
                 width: 100%;
-                height: 50vh;
+                // height: 50vh;
+               
         }
 
         .Cart {

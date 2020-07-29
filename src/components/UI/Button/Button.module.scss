@@ -143,3 +143,17 @@
                 color: #333;
         }
 }
+
+.placeOrder {
+        border:none;
+        width:30%;
+        margin-left:1rem;
+        background-color: #43dde6;
+        color:#333;
+        transition: all .3s;
+        margin-top:2rem;
+
+        &:hover{
+                color:#eee;
+        }
+}

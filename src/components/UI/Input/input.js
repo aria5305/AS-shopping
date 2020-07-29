@@ -64,7 +64,7 @@ const input = ( props ) => {
     return (
         <div className={classes.input}>
        
-            <label className={classes.input_label}>{props.label}</label>
+            <label className={classes.input_label} for={props.labelName}>{props.label}</label>
             {inputElement}
         </div>
 

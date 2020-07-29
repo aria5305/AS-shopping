@@ -1,0 +1,16 @@
+.Shipping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+            margin: 2rem;
+    }
+}
+
+.Info form {
+    display: flex;
+    flex-direction: column;
+}
+
+

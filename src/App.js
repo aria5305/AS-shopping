@@ -41,10 +41,11 @@ class App extends Component {
       <Switch>
       <Route path='/logout' exact component={Logout}/>
       <Route path='/cart'  exact component={Cart}/>
+      <Route path='/shop'  component={Shop}/>
       {/* <Route path='/orders' component={asyncOrder}/> */}
       {/* <Route path='/auth' component={asyncAuth}/> */}
-      <Route path='/' exact component={Shop}/>
-      <Redirect to='/'></Redirect>
+      <Route path='/' exact component={Cart}/>
+      {/* <Redirect to='/'></Redirect> */}
    </Switch>   
    )
   }  
